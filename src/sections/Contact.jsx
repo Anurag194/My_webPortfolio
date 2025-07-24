@@ -36,7 +36,7 @@ const Contact = () => {
           to_email: "Anuraag.Films@gmail.com",
           message: formData.message,
         },
-        "fut_sNPzf8072SGaI"
+        "fu_sNPzf8072SGaI"
       );
       setIsLoading(false);
       setForData({ name: "", email: "", message: "" });

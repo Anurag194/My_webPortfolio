@@ -36,7 +36,7 @@ const Contact = () => {
           to_email: "Anuraag.Films@gmail.com",
           message: formData.message,
         },
-        "fu_sNPzf8072SGaI"
+        "fut_sNPzf8072SGaI"
       );
       setIsLoading(false);
       setForData({ name: "", email: "", message: "" });
@@ -78,7 +78,7 @@ const Contact = () => {
               type="text"
               name="name"
               className="field-input field-input-focus"
-              placeholder="Anurag kirad"
+              placeholder="Enter your name here "
               autoComplete="name"
               value={formData.name}
               onChange={handleChange}
@@ -94,7 +94,7 @@ const Contact = () => {
               type="email"
               name="email"
               className="field-input field-input-focus"
-              placeholder="Anurag@gmail.com"
+              placeholder="Ex:Anurag@gmail.com"
               autoComplete="email"
               value={formData.email}
               onChange={handleChange}
